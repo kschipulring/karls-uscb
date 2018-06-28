@@ -1,0 +1,922 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"DOM",
+				"DOM_Query"
+			],
+			[
+				"get_class",
+				"get_class_methods"
+			],
+			[
+				"Dus",
+				"DuskierTestCase"
+			],
+			[
+				"regist",
+				"register_submit"
+			],
+			[
+				"clear",
+				"clearInterval"
+			],
+			[
+				"url",
+				"urlencode"
+			],
+			[
+				"env",
+				"env_code"
+			],
+			[
+				"json",
+				"json_decode"
+			],
+			[
+				"sr",
+				"src_split"
+			],
+			[
+				"re",
+				"recaptcha"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"tra",
+				"traitLogin"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"preg_",
+				"preg_match"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"preg_re",
+				"preg_replace"
+			],
+			[
+				"upload",
+				"upload-list"
+			],
+			[
+				"location",
+				"location_country"
+			],
+			[
+				"uploaded",
+				"uploaded_by_uid"
+			],
+			[
+				"base",
+				"base64_encode"
+			],
+			[
+				"the",
+				"the_num"
+			],
+			[
+				"data",
+				"data_arr"
+			],
+			[
+				"join",
+				"joinLeft"
+			],
+			[
+				"get_includ",
+				"get_included_files"
+			],
+			[
+				"get_inc",
+				"get_included_files"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"get_cl",
+				"get_class_methods"
+			],
+			[
+				"getcl",
+				"get_class"
+			],
+			[
+				"is_nu",
+				"is_numeric"
+			],
+			[
+				"int",
+				"intval"
+			],
+			[
+				"pro",
+				"product_items2"
+			],
+			[
+				"getS",
+				"getSku"
+			],
+			[
+				"before",
+				"page-break-before"
+			],
+			[
+				"add",
+				"addslashes"
+			],
+			[
+				"js",
+				"json_data"
+			],
+			[
+				"vertical",
+				"vertical-align"
+			],
+			[
+				"vertica",
+				"vertical-align"
+			],
+			[
+				"opac",
+				"khtml-opacity"
+			],
+			[
+				"opa",
+				"apple-opacity"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"te",
+				"temp_json"
+			],
+			[
+				"ele",
+				"element_id"
+			],
+			[
+				"qu",
+				"quantity"
+			],
+			[
+				"client",
+				"client_id"
+			],
+			[
+				"text-",
+				"text-overflow"
+			],
+			[
+				"white",
+				"white-space"
+			],
+			[
+				"j",
+				"json_data"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"blac",
+				"black_066"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 38.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/projects/karls-uscb"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/tests/Browser/Pages/HomePage.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/tests/Browser/Pages/Page.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/tests/Unit/DOM_QueryTest.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/tests/Browser/ExampleTest.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/tests/Unit/ExampleTest.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/app/Http/Controllers/HomeController.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/app/Http/Controllers/Controller.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/resources/views/home2.blade.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/resources/views/home.blade.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/phpunit-tests/tests/TestCase.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/tests/TestCase.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/phpunit/phpunit/src/Framework/Assert/Functions.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/phpunit/phpunit/src/Framework/Assert.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/routes/web.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/config/app.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/resources/views/auth/login-form.blade.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/resources/views/auth/login.blade.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/resources/views/auth/login2.blade.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/app/Http/Controllers/Auth/LoginController.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/tests/Unit/BrowserTests.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/app/Http/Controllers/UserController.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/resources/views/layouts/app.blade.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/composer.json",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/kschipulring/SimplePowerTools/SimplePowerTools/src/Loader.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/league/flysystem/src/File.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/fzaninotto/faker/composer.json",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/app/User.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/fzaninotto/faker/src/Faker/ValidGenerator.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/fzaninotto/faker/src/autoload.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/league/flysystem/src/Handler.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/league/flysystem/src/ConfigAwareTrait.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/powertools/html5/PowerTools/HTML5/src/PowerTools/HTML5.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/rkaiser0324/dom-query/PowerTools/DOM-Query/src/PowerTools/DOM/Query.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/composer/autoload_classmap.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/powertools/html5/PowerTools/HTML5/src/PowerTools/HTML5/Elements.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/laravel/dusk/src/Http/Controllers/UserController.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/tests/Feature/BasicTest.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/rkaiser0324/dom-query/PowerTools/DOM-Query/composer.json",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/composer/installed.json",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/ramsey/uuid/src/Uuid.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/rkaiser0324/dom-query/PowerTools/DOM-Query/src/PowerTools/DOM/Document.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/reliese/laravel/src/Coders/CodersServiceProvider.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/composer/ClassLoader.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/composer/autoload_psr4.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/composer/autoload_real.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/autoload.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/.env.testing",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/symfony/css-selector/composer.json",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/paragonie/random_compat/composer.json",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/symfony/console/composer.json",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/.env",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/app/Providers/AppServiceProvider.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/laravel/dusk/src/Browser.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/laravel/framework/src/Illuminate/Contracts/Container/BindingResolutionException.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/laravel/framework/src/Illuminate/Contracts/Debug/ExceptionHandler.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/phpunit.xml",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/laravel/framework/src/Illuminate/Container/Container.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/phpunit-tests/phpunit.xml",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/tests/DuskTestCase.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/laravel/dusk/stubs/DuskTestCase.stub",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/guzzlehttp/guzzle/src/Client.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/guzzlehttp/guzzle/src/functions.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/tests/Browser/LoginTest.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/laravel/dusk/bin/chromedriver-mac",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/tests/CreatesApplication.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/tests/Feature/ExampleTest.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/laravel/dusk/src/DuskServiceProvider.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/laravel/dusk/src/Page.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/laravel/dusk/src/ElementResolver.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/facebook/webdriver/lib/Remote/HttpCommandExecutor.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/.local.env",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/404.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/facebook/webdriver/lib/Exception/WebDriverCurlException.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/public/js/simple-recaptcha.js",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/public/js/app.js",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/facebook/webdriver/lib/Internal/WebDriverLocatable.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/facebook/webdriver/composer.json",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/index.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/server.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/bootstrap/environment.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/.htaccess",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/resources/views/master.blade.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/laravel/framework/src/Illuminate/Support/Facades/App.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/laravel/dusk/src/TestCase.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/facebook/webdriver/lib/Remote/DesiredCapabilities.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/laravel/dusk/src/Dusk.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/app/Http/Helpers/RecaptchaLib.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/laravel/dusk/src/Console/stubs/test.stub",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/laravel/dusk/readme.md",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/laravel/dusk/composer.json",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/resources/views/partials/recaptcha-frontend.blade.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/resources/views/auth/register.blade.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/laravel/framework/src/Illuminate/View/View.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/resources/views/uploader.blade.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/resources/views/partials/uploader-form-internal.blade.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/resources/views/email/email.blade.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/app/Http/Controllers/Auth/RegisterController.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/app/Http/Controllers/VideosController.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/.global.env",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/.production.env",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/app/Video.php",
+		"/C/Users/karl_acer/Downloads/recaptcha-php-1.11/recaptchalib.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/resources/views/uploads.blade.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/recaptcha-settings.json",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/resources/views/user.blade.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/public/js/vue-recaptcha.js",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/public/js/qs-parse.js",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/app/Http/Helpers.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/laravel/framework/src/Illuminate/Routing/Controller.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/app/Jobs/SendVerificationEmail.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/app/Http/Middleware/EncryptCookies.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/app/Http/Middleware/RedirectIfAuthenticated.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/app/Http/Middleware/VerifyCsrfToken.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/greggilbert/recaptcha/README.md",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/greggilbert/recaptcha/src/config/recaptcha.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/vendor/greggilbert/recaptcha/src/Recaptcha.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/resources/views/signin.blade.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/resources/views/partials/common-form-header.blade.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/public/css/upload-list.css",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/public/js/upload-list.js",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/public/css/user.css",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/resources/views/welcome.blade.php",
+		"/C/xampp/htdocs/projects/wwe-laravel-video-suplex/video-uploader/.env.example"
+	],
+	"find":
+	{
+		"height": 46.0
+	},
+	"find_in_files":
+	{
+		"height": 130.0,
+		"where_history":
+		[
+			"C:\\xampp\\htdocs\\projects\\wwe-laravel-video-suplex\\video-uploader",
+			"C:\\xampp\\htdocs\\projects\\wwe-laravel-video-suplex\\video-uploader\\vendor\\",
+			"C:\\xampp\\htdocs\\projects\\wwe-laravel-video-suplex\\video-uploader\\vendor\\laravel\\dusk",
+			"C:\\xampp\\htdocs\\projects\\wwe-laravel-video-suplex\\video-uploader",
+			"C:\\xampp\\htdocs\\projects\\wwe-laravel-video-suplex\\video-uploader\\vendor\\laravel",
+			"C:\\xampp\\htdocs\\projects\\wwe-laravel-video-suplex\\video-uploader\\vendor\\facebook",
+			"C:\\xampp\\htdocs\\projects\\wwe-laravel-video-suplex\\video-uploader",
+			"C:\\xampp\\htdocs\\projects\\wwe-laravel-video-suplex\\video-uploader\\vendor\\laravel",
+			"C:\\xampp\\htdocs\\projects\\wwe-laravel-video-suplex\\video-uploader\\vendor",
+			"C:\\xampp\\htdocs\\projects\\wwe-laravel-video-suplex\\video-uploader\\vendor\\laravel\\dusk\\src",
+			"C:\\xampp\\htdocs\\projects\\wwe-laravel-video-suplex\\video-uploader\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Testing",
+			"C:\\xampp\\htdocs\\projects\\wwe-laravel-video-suplex\\video-uploader\\vendor",
+			"C:\\xampp\\htdocs\\projects\\wwe-laravel-video-suplex\\video-uploader",
+			"C:\\xampp\\htdocs\\projects\\wwe-laravel-video-suplex\\video-uploader\\app",
+			"C:\\xampp\\htdocs\\projects\\wwe-laravel-video-suplex\\video-uploader",
+			"C:\\xampp\\htdocs\\projects\\wwe-laravel-video-suplex\\video-uploader\\vendor\\greggilbert",
+			"C:\\xampp\\htdocs\\projects\\wwe-laravel-video-suplex\\video-uploader\\vendor\\greggilbert\\recaptcha",
+			"C:\\xampp\\htdocs\\projects\\wwe-laravel-video-suplex",
+			"C:\\xampp\\htdocs\\projects\\wwe-laravel-video-suplex\\video-uploader\\app",
+			"C:\\xampp\\htdocs\\projects\\wwe-laravel-video-suplex\\video-uploader",
+			"C:\\xampp\\htdocs\\projects\\wwe-laravel-video-suplex\\video-uploader\\public\\js",
+			"C:\\xampp\\htdocs\\projects\\wwe-laravel-video-suplex\\video-uploader",
+			"C:\\xampp\\htdocs\\projects\\wwe-laravel-video-suplex\\video-uploader\\app",
+			"C:\\xampp\\htdocs\\projects\\wwe-laravel-video-suplex\\video-uploader\\vendor",
+			"C:\\xampp\\htdocs\\projects\\wwe-laravel-video-suplex\\video-uploader",
+			"C:\\xampp\\htdocs\\projects\\wwe-laravel-video-suplex\\video-uploader\\app",
+			"C:\\xampp\\htdocs\\projects\\wwe-laravel-video-suplex\\video-uploader",
+			"C:\\xampp\\htdocs\\projects\\wwe-laravel-video-suplex\\video-uploader\\resources\\views",
+			"C:\\xampp\\htdocs\\projects\\wwe-laravel-video-suplex\\video-uploader",
+			"C:\\xampp\\htdocs\\projects\\wwe-laravel-video-suplex\\video-uploader\\vendor\\composer",
+			"C:\\xampp\\htdocs\\projects\\wwe-laravel-video-suplex\\video-uploader\\resources\\views",
+			"C:\\xampp\\htdocs\\projects\\Portfolio\\src",
+			"C:\\xampp\\htdocs\\projects\\my-project-name",
+			"C:\\xampp\\htdocs\\projects\\palmasettimiinc\\wp-content\\themes\\WallaceDist",
+			"C:\\xampp\\htdocs\\projects\\palmasettimiinc\\wp-content\\themes\\bootstrap-basic",
+			"C:\\xampp\\htdocs\\projects\\palmasettimiinc\\wp-content\\themes\\twentyseventeen",
+			"C:\\xampp\\htdocs\\projects\\palmasettimiinc\\wp-content\\themes\\bootstrap-basic",
+			"C:\\xampp\\htdocs\\projects\\palmasettimiinc\\wp-content\\themes\\WallaceDist",
+			"C:\\xampp\\htdocs\\projects\\palmasettimiinc\\wp-content\\themes\\bootstrap-angular4",
+			"C:\\xampp\\htdocs\\projects\\palmasettimiinc",
+			"C:\\xampp\\htdocs\\projects\\palmasettimiinc\\wp-content\\themes\\bootstrap-angular4",
+			"C:\\xampp\\htdocs\\projects\\palmasettimiinc\\wp-content\\themes\\bootstrap-angular4\\ts",
+			"C:\\xampp\\htdocs\\projects\\palmasettimiinc\\wp-content\\themes\\bootstrap-angular4",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\design\\frontend",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\code\\community\\Phoenix\\Moneybookers",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\code\\community",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\code\\local",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\code\\community",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\code\\local",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\code\\core\\Mage",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\code\\core\\Mage\\",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\code\\core\\Mage\\Catalog",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\code\\core\\Mage",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\code\\core\\Mage",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\code\\core\\Mage\\Catalog",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\design\\frontend\\rwd",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\design",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport",
+			"C:\\Users\\Karl\\Documents\\work\\puppies_of_westport\\magento_extension_testimonials_1.2.2\\extension source 1.2.2 - magento CE 1.7.x.x - 1.9.x.x edition",
+			"C:\\Users\\Karl\\Documents\\work\\puppies_of_westport\\magento_extension_testimonials_1.2.2\\extension source 1.2.2 - magento CE 1.7.x.x - 1.9.x.x edition\\app\\code\\local\\TM\\Testimonials\\Model",
+			"C:\\Users\\Karl\\Documents\\work\\puppies_of_westport\\magento_extension_testimonials_1.2.2\\extension source 1.2.2 - magento CE 1.7.x.x - 1.9.x.x edition",
+			"C:\\Users\\Karl\\Documents\\work\\puppies_of_westport\\magento_extension_testimonials_1.2.2\\extension source 1.2.2 - magento CE 1.7.x.x - 1.9.x.x edition\\app",
+			"C:\\Users\\Karl\\Documents\\work\\puppies_of_westport\\magento_extension_testimonials_1.2.2\\extension source 1.2.2 - magento CE 1.7.x.x - 1.9.x.x edition\\app\\code",
+			"C:\\Users\\Karl\\Documents\\work\\puppies_of_westport\\magento_extension_testimonials_1.2.2\\extension source 1.2.2 - magento CE 1.7.x.x - 1.9.x.x edition",
+			"C:\\Users\\Karl\\Documents\\work\\puppies_of_westport\\magento_extension_testimonials_1.2.2\\extension source 1.2.2 - magento CE 1.7.x.x - 1.9.x.x edition\\app\\design\\adminhtml",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\design",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\code\\local\\TM\\Testimonials",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\code\\community\\KCF",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\code\\local\\KCF",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\code\\local",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\code\\community\\KCF",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\code\\local\\KCF",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\code\\community\\KCF",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\code\\community\\TM",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\code\\local\\Psychose",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app",
+			"C:\\Users\\Karl\\Documents\\work\\puppies_of_westport\\magento_extension_testimonials_1.2.2\\extension source 1.2.2 - magento CE 1.7.x.x - 1.9.x.x edition",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\code\\core",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport",
+			"C:\\Users\\Karl\\Documents\\work\\puppies_of_westport\\magento_extension_testimonials_1.2.2\\extension source 1.2.2 - magento CE 1.7.x.x - 1.9.x.x edition",
+			"C:\\Users\\Karl\\Documents\\work\\puppies_of_westport\\magento_extension_testimonials_1.2.2\\extension source 1.2.2 - magento CE 1.7.x.x - 1.9.x.x edition\\app",
+			"C:\\Users\\Karl\\Documents\\work\\puppies_of_westport\\magento_extension_testimonials_1.2.2\\extension source 1.2.2 - magento CE 1.7.x.x - 1.9.x.x edition",
+			"C:\\Users\\Karl\\Documents\\work\\puppies_of_westport\\magento_extension_testimonials_1.2.2\\extension source 1.2.2 - magento CE 1.7.x.x - 1.9.x.x edition\\app",
+			"C:\\Users\\Karl\\Documents\\work\\puppies_of_westport\\magento_extension_testimonials_1.2.2\\extension source 1.2.2 - magento CE 1.7.x.x - 1.9.x.x edition\\app\\design\\adminhtml",
+			"C:\\Users\\Karl\\Documents\\work\\puppies_of_westport\\magento_extension_testimonials_1.2.2\\extension source 1.2.2 - magento CE 1.7.x.x - 1.9.x.x edition",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport",
+			"C:\\Users\\Karl\\Documents\\work\\puppies_of_westport\\magento_extension_testimonials_1.2.2\\extension source 1.2.2 - magento CE 1.7.x.x - 1.9.x.x edition",
+			"C:\\Users\\Karl\\Documents\\work\\puppies_of_westport\\magento_extension_testimonials_1.2.2\\extension source 1.2.2 - magento CE 1.7.x.x - 1.9.x.x edition\\app",
+			"C:\\Users\\Karl\\Documents\\work\\puppies_of_westport\\magento_extension_testimonials_1.2.2\\extension source 1.2.2 - magento CE 1.7.x.x - 1.9.x.x edition",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\design\\frontend\\rwd",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\design\\frontend",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\design\\frontend",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\design\\frontend",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\code\\community\\Naya\\CallForPrice",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport;C:\\Users\\Karl\\Downloads\\import_categories(1)",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport;C:\\Users\\Karl\\Downloads\\import_categories(1);",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\code\\community\\Vsourz",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\code\\community\\Vsourz\\Bannerslider",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\design\\frontend",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\design\\frontend",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\design\\frontend",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\design\\frontend\\rwd",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\design\\frontend\\rwd\\default\\template",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\design\\frontend\\rwd",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport\\app\\code\\community\\Naya",
+			"C:\\xampp\\htdocs\\projects\\PuppiesOfWestport"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"function assertTrue(",
+			"Greggilbert",
+			"fzaninotto",
+			"League\\Flysystem",
+			"powertools",
+			"rkaiser0324",
+			"dom",
+			"processIsolation=",
+			"Illuminate\\Contracts\\Debug\\ExceptionHandler",
+			"BindingResolutionException",
+			"1000",
+			"There are no commands defined",
+			"AppServiceProvider",
+			"curl_setopt",
+			"WebDriverCurlException",
+			"/index.php",
+			"function secure_url",
+			"createApplication",
+			"abstract",
+			"browse(",
+			"browse",
+			"Illuminate",
+			"recaptchaObj",
+			"the_view",
+			"$data",
+			"construct",
+			"RECAPTCHA_API_SERVER",
+			"RecaptchaServiceProvider",
+			"example1",
+			"recaptcha_check_answer",
+			"mcrypt_encrypt",
+			"login",
+			"->login",
+			"function login[\\s]?\\(",
+			"login[\\s]?\\(",
+			"redirectTo",
+			"verify",
+			"getMaxFileUploadSize",
+			"RECAPTCHA_API_SECURE_SERVER",
+			"RECAPTCHA_API_SERVER",
+			"RECAPTCHA_VERIFY_SERVER",
+			"function",
+			"ReCaptchaResponse",
+			"$rules",
+			"sitekey",
+			"Click the Link To Verify Your Email",
+			"’",
+			"‘",
+			"mailtrap.io",
+			"’",
+			"‘",
+			"”",
+			"’",
+			"‘",
+			"SERVER_PORT",
+			"cunt",
+			"Dotenv",
+			".env",
+			"localhost",
+			"Dotenv",
+			">environmentFile",
+			".env",
+			"The environment file to load during bootstrapping.",
+			"location",
+			"BeforeAnyDbQueryMiddleware",
+			"Auth::id()",
+			"uploads.css",
+			"getMaxFileUploadSize",
+			"Helpers.php",
+			"Helpers",
+			"vueuploadapp",
+			"    @",
+			">\n",
+			"common-header",
+			"common-header.blade.php",
+			"form",
+			"            \n",
+			"this.PortfolioBaseServiceURL",
+			"md-input-container",
+			"MaterialModule",
+			"_menu",
+			"menu",
+			"nav_menu",
+			"wp_nav_menu",
+			"scheduleTask",
+			"theme_location",
+			"bootstrap-basic",
+			"Bootstrap Basic",
+			"bootstrap basic",
+			"@package bootstrap-basic",
+			"dashboard",
+			"dev-palmasettimiinc.3ring",
+			"exports.runInThisContext",
+			"Mage_Catalog_Block_Product_Widget_New",
+			"update",
+			"left.phtml",
+			"template/naya/callforprice",
+			"<template>",
+			"activateemail",
+			"<template>",
+			"<rewrite>",
+			"getProductC",
+			"navadmin",
+			"navadmin/data",
+			"echo",
+			"select",
+			"getReadConnection",
+			"cataloginventory",
+			"getProduct",
+			"catalog/category",
+			"function select",
+			" select",
+			"select",
+			"function select",
+			"select",
+			"getCurrentChildCategories",
+			"getStoreCategories",
+			"Mage_Catalog_Block_Navigation",
+			"Varien_Data_Tree_Node",
+			"cache",
+			"getCurrentChildCategories",
+			"_tree",
+			"<!-- top of the var dump",
+			"$jokes",
+			"extends Mage_Catalog_Model_Resource_Category_Flat",
+			"$child->getIsActive()",
+			"addFieldToFilter",
+			"product_collection"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"public static function",
+			"'",
+			"\"",
+			"'",
+			"bootstrap-angular4",
+			"Bootstrap Angular4 built from Bootstrap Basic",
+			"@package bootstrap-angular4",
+			"rgba(0,0,0,0.04)",
+			"nav-primary",
+			"bec5cc",
+			"e3ebf4",
+			"formsubmission_id",
+			"KCF_Contactforms",
+			"kcf_contactforms",
+			"KCF_",
+			"kcfcore",
+			"KCF_",
+			"logo_puppies.png",
+			"Search Puppies...",
+			",\"Default\",",
+			",,\"Default\"",
+			",\"Default\",\"base\"",
+			",\"Default\",\"base\",",
+			",\"Default\", \"base\",",
+			"\"\", \"base\",",
+			"\"base\",\"simple\",",
+			",\"for_sale\",",
+			"$product->",
+			"ddvars",
+			"dropdowngroupvars",
+			"slide_",
+			"proj_",
+			"window.url_router_params",
+			"link_adjustment_iteration",
+			".link_adjustment_slide",
+			"\t",
+			"$white"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 46.0
+	},
+	"input":
+	{
+		"height": 46.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 102.0
+	},
+	"pinned_build_system": "",
+	"project": "uscb.sublime-project",
+	"replace":
+	{
+		"height": 88.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"app/providers/appserviceprovider.php",
+				"video-uploader\\app\\Providers\\AppServiceProvider.php"
+			],
+			[
+				"illuminate/container/container.php",
+				"video-uploader\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php"
+			],
+			[
+				"appserv",
+				"video-uploader\\app\\Providers\\AppServiceProvider.php"
+			],
+			[
+				"src/illuminate/foundation/providerrepository.php",
+				"video-uploader\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php"
+			],
+			[
+				"common.css",
+				"video-uploader\\public\\css\\common.css"
+			],
+			[
+				"abstractsmtptransport.php",
+				"video-uploader\\vendor\\swiftmailer\\swiftmailer\\lib\\classes\\Swift\\Transport\\AbstractSmtpTransport.php"
+			],
+			[
+				"appserviceprovider.php",
+				"video-uploader\\app\\Providers\\AppServiceProvider.php"
+			],
+			[
+				"web.php",
+				"video-uploader\\routes\\web.php"
+			],
+			[
+				"theme-config.php",
+				"wp-content\\plugins\\jetpack\\modules\\theme-tools\\content-options\\featured-images.php"
+			],
+			[
+				"vm.js",
+				"cli\\node_modules\\vm-browserify\\test\\vm.js"
+			],
+			[
+				"catalog/navigation/left.phtml",
+				"PuppiesOfWestport\\app\\design\\frontend\\rwd\\default\\template\\catalog\\navigation\\left.phtml"
+			],
+			[
+				"left.phtml",
+				"PuppiesOfWestport\\app\\design\\adminhtml\\default\\default\\template\\backup\\left.phtml"
+			],
+			[
+				"app/code/core/mage/catalog/model/category.php",
+				"PuppiesOfWestport\\app\\code\\core\\Mage\\Catalog\\Model\\Category.php"
+			],
+			[
+				"topmenu",
+				"app\\design\\frontend\\rwd\\default\\template\\page\\html\\topmenu.phtml"
+			],
+			[
+				"new_grid",
+				"app\\design\\frontend\\rwd\\default\\template\\catalog\\product\\widget\\new\\content\\new_grid.phtml"
+			],
+			[
+				"",
+				"app\\design\\frontend\\rwd\\default\\template\\catalog\\product\\widget\\new\\content\\new_grid.phtml"
+			],
+			[
+				"config.xml",
+				"app\\etc\\config.xml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 38.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"migration",
+				"Migration"
+			],
+			[
+				"",
+				"$$alias"
+			],
+			[
+				"Mage_Catalog_Block_Product_Widget_Html_Pager",
+				"Mage_Catalog_Block_Product_Widget_Html_Pager"
+			],
+			[
+				"Varien_Data_Tree_Node_Collection",
+				"Varien_Data_Tree_Node_Collection"
+			],
+			[
+				"Mage_Page_Block_Html_Topmenu_Render",
+				"Mage_Page_Block_Html_Topmenu_Renderer"
+			],
+			[
+				"topNav",
+				"topnav"
+			],
+			[
+				"topnav",
+				"topnav"
+			],
+			[
+				"Mage_Page_Block_Html_Topmenu",
+				"Mage_Page_Block_Html_Topmenu"
+			],
+			[
+				"Mage_Catalog_Block_Product_Widget_New",
+				"Mage_Catalog_Block_Product_Widget_New"
+			],
+			[
+				"Mage_Core_Controller_Response_Http",
+				"Mage_Core_Controller_Response_Http"
+			],
+			[
+				"email_te",
+				"Mage_Core_Model_Email_Template"
+			],
+			[
+				"getSentSuccess",
+				"_registerMasspaymentsSuccess"
+			],
+			[
+				"Mage_Core_Block_Abstract",
+				"Mage_Core_Block_Abstract"
+			],
+			[
+				"Mage_Core_Block_Template",
+				"Mage_Core_Block_Template"
+			]
+		],
+		"width": 1115.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 250.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
