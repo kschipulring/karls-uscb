@@ -35,11 +35,15 @@ class MainForm extends Component {
       )
   }
 
+  changeMainSector(){
+    
+  }
+
   render() {
     return (
       <form>
-        <select id="programCode" name="programCode" size="16" multiple onChange={this.change}>
-          {this.namesList}
+        <select id="programCode" name="programCode" size="16" multiple onChange={this.changeMainSector}>
+          {this.optionList}
         </select>
       </form>
     );
