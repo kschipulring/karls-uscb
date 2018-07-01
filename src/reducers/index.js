@@ -1,9 +1,6 @@
 import { combineReducers } from 'redux';
 import { chosenSections, chosenCategories, startYear, endYear } from '../actions';
 
-//import todos from './todos'
-//import visibilityFilter from './visibilityFilter'
-
 const thoseReducers = (state = [], action) => {
   switch (action.type) {
     case 'CHOSEN_SECTIONS':
