@@ -12,8 +12,9 @@ class MainForm extends Component {
       items: []
     };
 
-    const year = (new Date()).getFullYear() - 20;
-    this.years = Array.from(new Array(20),(val, index) => index + year);
+    this.currentYear = new Date().getFullYear();
+    this.startYear = this.currentYear - 20;
+    this.years = Array.from(new Array(21),(val, index) => index + this.startYear);
 
     console.log('this.years = ',  this.years);
   }
@@ -56,9 +57,15 @@ class MainForm extends Component {
   }
 
   changeStartYear = (event) => {
-    var updatedSections = Array.prototype.slice.call(event.target.selectedOptions).map(o => o.value);
+    var year = event.target;
 
-    this.props.updateSections( updatedSections );
+    this.props.updateStartYear( year );
+  }
+
+  changeEndYear = (event) => {
+    var year = event.target;
+
+    this.props.updateEndYear( year );
   }
 
   render() {
@@ -72,7 +79,7 @@ class MainForm extends Component {
           Select a date range:<br/>
           <label className="n" htmlFor="startYear">Start:</label>
 
-          <select name="startYear" id="startYear">
+          <select name="startYear" id="startYear" onChange={this.updateStartYear}>
            {
              this.years.map((year, index) => {
                return <option key={`year${index}`} value={year}>{year}</option>
@@ -82,7 +89,7 @@ class MainForm extends Component {
 
           <label className="n" htmlFor="endYear">End:</label>
 
-          <select name="endYear" id="endYear">
+          <select name="endYear" id="endYear" value={this.currentYear} onChange={this.changeEndYear}>
            {
              this.years.map((year, index) => {
                return <option key={`year${index}`} value={year}>{year}</option>
