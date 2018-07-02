@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-import {bindActionCreators} from 'redux';
-
 class MainForm extends Component {
 
   constructor(props) {
