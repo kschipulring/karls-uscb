@@ -11,6 +11,11 @@ class MainForm extends Component {
       isLoaded: false,
       items: []
     };
+
+    const year = (new Date()).getFullYear() - 20;
+    this.years = Array.from(new Array(20),(val, index) => index + year);
+
+    console.log('this.years = ',  this.years);
   }
 
   componentDidMount() {
@@ -44,10 +49,14 @@ class MainForm extends Component {
       )
   }
 
-  changeMainSector = (event) => {
+  changeMainSections = (event) => {
     var updatedSections = Array.prototype.slice.call(event.target.selectedOptions).map(o => o.value);
 
-    console.log( updatedSections );
+    this.props.updateSections( updatedSections );
+  }
+
+  changeStartYear = (event) => {
+    var updatedSections = Array.prototype.slice.call(event.target.selectedOptions).map(o => o.value);
 
     this.props.updateSections( updatedSections );
   }
@@ -55,9 +64,32 @@ class MainForm extends Component {
   render() {
     return (
       <form>
-        <select id="programCode" name="programCode" size="16" multiple onChange={this.changeMainSector}>
+        <select id="programCode" name="programCode" size="16" multiple onChange={this.changeMainSections}>
           {this.optionList}
         </select>
+
+        <div className="form-item">
+          Select a date range:<br/>
+          <label className="n" htmlFor="startYear">Start:</label>
+
+          <select name="startYear" id="startYear">
+           {
+             this.years.map((year, index) => {
+               return <option key={`year${index}`} value={year}>{year}</option>
+             })
+           }
+          </select>
+
+          <label className="n" htmlFor="endYear">End:</label>
+
+          <select name="endYear" id="endYear">
+           {
+             this.years.map((year, index) => {
+               return <option key={`year${index}`} value={year}>{year}</option>
+             })
+           }
+          </select>
+        </div>
       </form>
     );
   }
