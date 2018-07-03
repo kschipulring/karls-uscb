@@ -34,6 +34,7 @@ class MainForm extends Component {
           });
 
           this.setState({
+            error: null,
             isLoaded: true,
             items: result.dataset
           });
@@ -54,14 +55,14 @@ class MainForm extends Component {
     this.props.updateSections( updatedSections );
   }
 
-  changeStartYear = (event) => {
-    var year = event.target;
+  updateStartYear = (event) => {
+    var year = event.target.value;
 
     this.props.updateStartYear( year );
   }
 
-  changeEndYear = (event) => {
-    var year = event.target;
+  updateEndYear = (event) => {
+    var year = event.target.value;
 
     this.props.updateEndYear( year );
   }
@@ -87,7 +88,7 @@ class MainForm extends Component {
 
           <label className="n" htmlFor="endYear">End:</label>
 
-          <select name="endYear" id="endYear" value={this.currentYear} onChange={this.changeEndYear}>
+          <select name="endYear" id="endYear" value={this.currentYear} onChange={this.updateEndYear}>
            {
              this.years.map((year, index) => {
                return <option key={`year${index}`} value={year}>{year}</option>
