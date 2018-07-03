@@ -1,5 +1,12 @@
 import React, { Component } from 'react';
 
+//import * from 'react-native-xml2js';
+
+//const parseString = require('react-native-xml2js').parseString;
+
+var XMLParser = require('react-xml-parser');
+
+
 class Categories extends Component {
 
   constructor(props) {
@@ -12,15 +19,32 @@ class Categories extends Component {
   }
 
   categoryFetch(){
-    if(this.props.datasrc && this.props.datasrc.length < 0 ){
-      fetch( "https://api.census.gov/data/timeseries/eits/eits_program_code_" + this.props.datasrc )
-        .then(res => res.json())
+    if(this.props.datasrc && this.props.datasrc.length > 0 ){
+
+      var url = "https://api.census.gov/data/timeseries/eits/eits_program_code_" 
+      + this.props.datasrc.toUpperCase() + ".xml";
+
+      //const parseString = require('react-native-xml2js').parseString;
+
+
+      fetch( url )
+        .then(res => res.text())
         .then(
-          (result) => {
+          (response) => {
 
-            console.log( result );
+            var xml = new XMLParser().parseFromString(response);
 
-            /*this.optionList = result.dataset.map(function(option, i){
+            var reformattedArray = xml.children.reduce((reformattedArray, member) => {
+              if (member.name === "category_code") {
+                reformattedArray.push(member);
+              }
+              return reformattedArray;
+            }, []);
+
+            console.log( xml.children );
+            console.log(reformattedArray);
+
+            /*this.optionList = reformattedArray.map(function(option, i){
               var datTitleArr = option.title.split("-:");
 
               var datTitle = datTitleArr[1];
