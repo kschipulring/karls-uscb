@@ -13,8 +13,6 @@ class MainForm extends Component {
     this.currentYear = new Date().getFullYear();
     this.startYear = this.currentYear - 20;
     this.years = Array.from(new Array(21),(val, index) => index + this.startYear);
-
-    console.log('this.years = ',  this.years);
   }
 
   componentDidMount() {
@@ -49,10 +47,8 @@ class MainForm extends Component {
       )
   }
 
-  changeMainSections = (event) => {
-    var updatedSections = Array.prototype.slice.call(event.target.selectedOptions).map(o => o.value);
-
-    this.props.updateSections( updatedSections );
+  updateSection = (event) => {
+    this.props.updateSection( event.target.value );
   }
 
   updateStartYear = (event) => {
@@ -69,8 +65,8 @@ class MainForm extends Component {
 
   render() {
     return (
-      <form>
-        <select id="programCode" name="programCode" size="16" multiple onChange={this.changeMainSections}>
+      <section>
+        <select id="programCode" name="programCode" size="16" onChange={this.updateSection}>
           {this.optionList}
         </select>
 
@@ -96,7 +92,7 @@ class MainForm extends Component {
            }
           </select>
         </div>
-      </form>
+      </section>
     );
   }
 }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import MainForm from './MainForm';
+import Categories from './Categories';
 import './App.css';
 
 class App extends Component {
@@ -7,20 +8,23 @@ class App extends Component {
     super(props);
     this.state = {
       error: null,
-      chosenSections: [],
-      chosenCategories: [],
+      chosenSection: '',
+      chosenCategory: '',
       startYear: null,
       endYear: null
     };
   }
 
-  updateSections(chosenSections){
+  updateSection(chosenSection){
+
+    console.log( "chosenSection = ", chosenSection);
+
     this.setState({
-      chosenSections: chosenSections
+      chosenSection: chosenSection
     });
   }
 
-  updateCategories(chosenCategories){
+  updateCategory(chosenCategories){
     this.setState({
       chosenCategories: chosenCategories
     });
@@ -41,10 +45,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <MainForm updateSections={this.updateSections.bind(this)}
-        updateStartYear={this.updateStartYear.bind(this)}
-        updateEndYear={this.updateStartYear.bind(this)}>
-        </MainForm>
+        <form>
+          <MainForm updateSection={this.updateSection.bind(this)}
+          updateStartYear={this.updateStartYear.bind(this)}
+          updateEndYear={this.updateStartYear.bind(this)}>
+          </MainForm>
+
+          <Categories datasrc={this.state.chosenSection}></Categories>
+        </form>
       </div>
     );
   }
