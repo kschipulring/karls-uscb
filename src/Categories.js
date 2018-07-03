@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
 
-//import * from 'react-native-xml2js';
-
-//const parseString = require('react-native-xml2js').parseString;
-
 var XMLParser = require('react-xml-parser');
 
 
@@ -24,9 +20,6 @@ class Categories extends Component {
       var url = "https://api.census.gov/data/timeseries/eits/eits_program_code_" 
       + this.props.datasrc.toUpperCase() + ".xml";
 
-      //const parseString = require('react-native-xml2js').parseString;
-
-
       fetch( url )
         .then(res => res.text())
         .then(
@@ -41,23 +34,33 @@ class Categories extends Component {
               return reformattedArray;
             }, []);
 
-            console.log( xml.children );
-            console.log(reformattedArray);
+            var isMultiple = '';
+            var selSize = '';
 
-            /*this.optionList = reformattedArray.map(function(option, i){
-              var datTitleArr = option.title.split("-:");
+            this.optionList = reformattedArray.map(function(option, i){
 
-              var datTitle = datTitleArr[1];
+              var datTitle = option.attributes.description;
 
-              var datVal = option.c_dataset[2];
+              var datVal = option.attributes.value;
+
+              if( option.attributes.description.match(/^[0-9]+/) ){
+                isMultiple = 'multiple';
+
+                selSize = reformattedArray.length;
+              }
 
               return <option value={datVal} key={i}>{datTitle}</option>;
-            });*/
+            });
+
+            this.selectList = <select id="categories" name="categories"
+            onChange={this.updateCategories} multiple={isMultiple} size={selSize}>
+              {this.optionList}
+            </select>;
 
             this.setState({
               error: null,
               isLoaded: true,
-              items: result.dataset
+              items: reformattedArray
             });
           },
           // error handling
@@ -81,13 +84,11 @@ class Categories extends Component {
     this.categoryFetch();
   }
 
-  updateCategory() {}
+  updateCategories() {}
 
   render() {
     return (
-      <select id="categories" name="categories" onChange={this.updateCategory}>
-        {this.optionList}
-      </select>
+      <section>{this.selectList}</section>
     );
   }
 }

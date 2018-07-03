@@ -16,15 +16,12 @@ class App extends Component {
   }
 
   updateSection(chosenSection){
-
-    console.log( "chosenSection = ", chosenSection);
-
     this.setState({
       chosenSection: chosenSection
     });
   }
 
-  updateCategory(chosenCategories){
+  updateCategories(chosenCategories){
     this.setState({
       chosenCategories: chosenCategories
     });
