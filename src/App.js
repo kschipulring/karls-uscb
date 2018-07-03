@@ -9,7 +9,7 @@ class App extends Component {
     this.state = {
       error: null,
       chosenSection: '',
-      chosenCategory: '',
+      chosenCategories: [],
       startYear: null,
       endYear: null
     };
@@ -48,7 +48,8 @@ class App extends Component {
           updateEndYear={this.updateStartYear.bind(this)}>
           </MainForm>
 
-          <Categories datasrc={this.state.chosenSection}></Categories>
+          <Categories datasrc={this.state.chosenSection}
+          updateCategories={this.updateCategories.bind(this)}></Categories>
         </form>
       </div>
     );

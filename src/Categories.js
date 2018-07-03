@@ -12,6 +12,8 @@ class Categories extends Component {
       isLoaded: false,
       items: []
     };
+
+    this.isMultiple = '';
   }
 
   categoryFetch(){
@@ -34,8 +36,9 @@ class Categories extends Component {
               return reformattedArray;
             }, []);
 
-            var isMultiple = '';
+
             var selSize = '';
+            var isMultiple = '';
 
             this.optionList = reformattedArray.map(function(option, i){
 
@@ -52,8 +55,11 @@ class Categories extends Component {
               return <option value={datVal} key={i}>{datTitle}</option>;
             });
 
+            //component level scope.  problematic to set inside prior map operation, so is set here instead
+            this.isMultiple = isMultiple;
+
             this.selectList = <select id="categories" name="categories"
-            onChange={this.updateCategories} multiple={isMultiple} size={selSize}>
+            onChange={this.updateCategories} multiple={this.isMultiple} size={selSize}>
               {this.optionList}
             </select>;
 
@@ -80,11 +86,25 @@ class Categories extends Component {
     }
   }
 
-  componentDidMount() {  console.log( this.props.datasrc );
+  componentDidMount() {
     this.categoryFetch();
   }
 
-  updateCategories() {}
+  updateCategories = (event) => {
+    if( this.isMultiple === 'multiple' ){
+      var options = event.target.options;
+      var values = [];
+      for (var i = 0, l = options.length; i < l; i++) {
+        if (options[i].selected) {
+          values.push(options[i].value);
+        }
+      }
+
+      this.props.updateCategories( values );
+    }else{
+      this.props.updateCategories( [event.target.value] );
+    }
+  }
 
   render() {
     return (
