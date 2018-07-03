@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import MainForm from './MainForm';
 import Categories from './Categories';
+import DataGrids from './DataGrids';
 import './App.css';
 
 class App extends Component {
@@ -45,11 +46,13 @@ class App extends Component {
         <form>
           <MainForm updateSection={this.updateSection.bind(this)}
           updateStartYear={this.updateStartYear.bind(this)}
-          updateEndYear={this.updateStartYear.bind(this)}>
+          updateEndYear={this.updateEndYear.bind(this)}>
           </MainForm>
 
           <Categories datasrc={this.state.chosenSection}
           updateCategories={this.updateCategories.bind(this)}></Categories>
+
+          <DataGrids state={this.state}></DataGrids>
         </form>
       </div>
     );
